@@ -41,18 +41,18 @@ func count() {
 func startQuiz() {
 	fmt.Println("Let's test your programming knowledge.")
 	// write your code here
-    var x int
-    fmt.Println("Potato?")
-    fmt.Println("1. YES")
-    fmt.Println("2. NO")
-    fmt.Scan(&x)
-    switch x{
-        case 1:
-            fmt.Println("YES")
-        case 2:
-            fmt.Println("NO")
-    }
-        
+	var x int
+	fmt.Println("Potato?")
+	fmt.Println("1. YES")
+	fmt.Println("2. NO")
+	fmt.Scan(&x)
+	switch x {
+	case 1:
+		fmt.Println("YES")
+	case 2:
+		fmt.Println("NO")
+	}
+
 	fmt.Println("Completed, have a nice day!")
 }
 
@@ -65,7 +65,7 @@ func main() {
 	showName()
 	guessAge()
 	count()
-    startQuiz()
+	startQuiz()
 	// call something here
 	sayGoodbye()
 }
